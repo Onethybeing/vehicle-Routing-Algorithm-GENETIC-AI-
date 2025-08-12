@@ -3,6 +3,61 @@
 This Jupyter Notebook implements a **Vehicle Routing Problem (VRP)** solver using a **Genetic Algorithm (GA)**. The aim is to assign a set of delivery locations to a fixed number of vehicles while minimizing total distance and balancing the load between vehicles.
 
 ---
+# 🚚 Vehicle Routing Problem - Genetic Algorithm
+
+This project implements a **Vehicle Routing Problem (VRP)** solver using a Genetic Algorithm, with an interactive **Streamlit** web app for visualization.
+
+
+https://github.com/user-attachments/assets/dff0f33d-9ab0-4a66-8a4a-8e7c0e8d7cf1
+
+
+## 🌐 Live Demo
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jw8q2tyhrrjzf35avb6eck.streamlit.app/)
+
+Click the badge above to launch the app in your browser — no installation required.
+
+---
+
+## 📸 Preview
+<!-- Replace with your own screenshot -->
+![App Screenshot](screenshot.png)
+
+---
+
+## ✨ Features
+- **Customizable Parameters**:
+  - Number of vehicles
+  - Number of locations
+  - Population size
+  - Mutation rate
+  - Number of generations
+- **Real-time Visualization**:
+  - Plots optimal vehicle routes on a 2D map
+  - Shows best fitness score over generations
+- **Genetic Algorithm Engine**:
+  - Built using [DEAP](https://deap.readthedocs.io/en/master/) evolutionary computation framework
+
+---
+
+## ⚙ How It Works
+1. Generates random coordinates for delivery locations.
+2. Uses a Genetic Algorithm to find the optimal set of routes for the given number of vehicles.
+3. Evaluates routes by:
+   - Total travel distance
+   - Balance of distance between vehicles
+4. Visualizes:
+   - The optimal route per vehicle
+   - Convergence of fitness score over time
+
+---
+
+## 🛠 Run Locally
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/YourUsername/vehicle-Routing-Algorithm-GENETIC-AI-.git
+cd vehicle-Routing-Algorithm-GENETIC-AI-
+pip install -r requirements.txt
+
 
 ## 📦 Features
 
